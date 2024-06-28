@@ -2,6 +2,7 @@
 title: "[HTB] Meow"
 author: "Wook Lee"
 date: "2024-06-17"
+tags: ["Hack The Box"]
 ---
 
 > My journey begins here. 🐌

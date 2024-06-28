@@ -10,12 +10,9 @@ title: "WOOK"
            border-radius: 8%;"
     src="./leon.png" style="width: 60px;" alt="leon">
 
-<p style="text-align: center">
-    Hi, My name is Wook. </br>
-    I'm studying Cybersecurity. </br>
-    I don't know how you ended up in such a humble space, but welcome! </br>
-    If you want to get in touch, you can email me</br>
-    <br/>
+<p style="text-align: left">
+    Hi, My name is <i><strong>Wook</strong></i>.
+    I am someone who studies and loves <i>cybersecurity</i>. I don't know how you ended up in this humble place but this blog was created because my small brain cannot contain all the vast information. If you would like to get in touch, you can email me
     <a>leewookb@gmail.com</a>
 </p>
 
@@ -25,6 +22,6 @@ title: "WOOK"
             margin-left: auto;
             margin-right: auto;
             width: 80px;">
-    Blog
+    Enter
     </button>
 </a>
