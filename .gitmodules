@@ -1,0 +1,7 @@
+[submodule "themes/hugo-simple"]
+	path = themes/hugo-simple
+	url = https://github.com/maolonglong/hugo-simple.git
+[submodule "public"]
+	path = public
+	url = https://github.com/lbu0413/lbu0413.github.io.git
+	branch = main
