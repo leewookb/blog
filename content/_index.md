@@ -13,10 +13,10 @@ title: "WOOK"
 <p style="text-align: left">
     Hi, My name is <i><strong>Wook</strong></i>.
     I am someone who studies and loves <i>cybersecurity</i>. I don't know how you ended up in this humble place but this blog was created because my small brain cannot contain all the vast information. If you would like to get in touch, you can email me
-    <a>leewookb@gmail.com</a>
+    <a style="text-decoration: underline">leewookb@gmail.com</a>
 </p>
 
-<a href="https://lbu0413.github.io/blog" style="text-decoration: none;">
+<a href="/blog/" style="text-decoration: none;">
     <button 
         style="display: block; 
             margin-left: auto;

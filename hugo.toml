@@ -2,7 +2,7 @@
 baseURL = "https://lbu0413.github.io/"
 theme = "hugo-simple"
 languageCode = "en"             
-title = "leewook"
+title = "Wook's blog"
 
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
@@ -19,6 +19,7 @@ tag = "tags"
 [permalinks]
 blog = "/:slugorfilename/"
 tags = "/blog/:slug"
+
 
 [markup.goldmark.renderer]
 unsafe = true
@@ -50,6 +51,10 @@ weight = 10
 name = "Blog"
 pageRef = "/blog"
 weight = 20
+[[menu.main]]
+name = "Photos"
+pageRef = "/photos"
+weight = 30
 
 [services.rss]
 limit = 42

@@ -19,6 +19,15 @@ ul.blog-posts {
 ul.blog-posts > li {
   list-style-type: none;
   display: flex;
+  
+}
+.posts {
+  text-decoration: none;
+  margin: 1px;
+}
+
+.tags {
+  text-decoration: underline;
 }
 
 ul.blog-posts > li span {
@@ -26,7 +35,7 @@ ul.blog-posts > li span {
   color: var(--text-light);
 }
 
-nav#TableOfContents > ul {
+nav#1bleOfContents > ul {
   margin-block-start: 0;
 }
 
