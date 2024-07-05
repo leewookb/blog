@@ -619,8 +619,21 @@ pre {
   padding: 1rem 1.4rem;
   max-width: 100%;
   overflow: auto;
+  border: 1px solid var(--preformatted);
   color: var(--preformatted);
+  background-color: var(--accent-bg) !important;
 }
+
+/* Custom styling for inline code */
+code {
+  background: var(--accent-bg); /* Dark background color */
+  color: var(--preformatted); /* Light text color */
+  padding: 3px; /* Padding */
+  border-radius: var(--standard-border-radius);
+  font-size: 0.8em; /* Slightly smaller font size */
+  border: 1px solid var(--border);
+}
+
 
 /* Fix embedded code within pre */
 pre code {
@@ -628,6 +641,8 @@ pre code {
   background: none;
   margin: 0;
   padding: 0;
+  border: none;
+  
 }
 
 /* Progress bars */

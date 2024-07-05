@@ -48,7 +48,7 @@ DNS Servers.....................: ::
 0.0.0.0
 ```
 
-the last four digits of PC1's MAC Address is **1111** . We are sending a packet from PC1 to PC4, which means the source IP Address is **192.168.1.1** (PC1's IP Address) and the destination IP Address is **192.168.3.1** (PC4's IP Address). The source and destination IP Address remain unchanged throughout the communication. Because PC4 is located on a different network, PC1 will encapsulate the packet with an Ethernet header and the destination MAC address will be the MAC address of its **default gateway**. In this case, it's R1's g0/0 interface. It will be the destination MAC address.
+the last four digits of PC1's MAC Address is `1111` . We are sending a packet from PC1 to PC4, which means the source IP Address is `192.168.1.1` (PC1's IP Address) and the destination IP Address is `192.168.3.1` (PC4's IP Address). The source and destination IP Address remain unchanged throughout the communication. Because PC4 is located on a different network, PC1 will encapsulate the packet with an Ethernet header and the destination MAC address will be the MAC address of its `default gateway`. In this case, it's R1's g0/0 interface. It will be the destination MAC address.
 
 ```
 R1>enable
@@ -57,7 +57,7 @@ GigabitEthernet0/0 is up, line protocol is up (connected)
 Hardware is CN Gigabit Ethernet, address is 0000.01aa.aaaa (bia 00d0.ff77.0101)
 ```
 
-The last four digits of R1's g0/0 interface MAC address is **aaaa** .
+The last four digits of R1's g0/0 interface MAC address is `aaaa` .
 
 <div style="text-align: center"><img src="./image16.png"></div>
 
@@ -85,11 +85,11 @@ Like I already mentioned, the source and destination IP addresses will remain th
 
 <div style="text-align: center"><img src="./image17.png"></div>
 
-The last four digits of R1's g0/1 interface MAC address is **BBBB**.
+The last four digits of R1's g0/1 interface MAC address is `BBBB`.
 
 <div style="text-align: center"><img src="./image18.png"></div>
 
-The last four digits of R2's g0/0 interface MAC address is **CCCC**.
+The last four digits of R2's g0/0 interface MAC address is `CCCC`.
 
 <div style="text-align: center"><img src="./image19.png"></div>
 
@@ -108,11 +108,11 @@ The source MAC address will be R2's interface g0/1 and the destination MAC addre
 
 <div style="text-align: center"><img src="./image20.png"></div>
 
-The last four digits of R2's interface g0/1 MAC address is **DDDD**.
+The last four digits of R2's interface g0/1 MAC address is `DDDD`.
 
 <div style="text-align: center"><img src="./image21.png"></div>
 
-The last four digits of R3's interface g0/0 MAC address is **EEEE**.
+The last four digits of R3's interface g0/0 MAC address is `EEEE`.
 
 <div style="text-align: center"><img src="./image22.png"></div>
 
@@ -125,13 +125,13 @@ Source MAC address: FFFF
 Destination MAC address: 4444
 ```
 
-At this point, the destination IP address is part of a network connected to R3, **192.168.3.0/24** , so R3 knows it can send the packet directly to PC4. So, it will set the destination MAC address to PC4's MAC address, and use its own address as the source.
+At this point, the destination IP address is part of a network connected to R3, `192.168.3.0/24` , so R3 knows it can send the packet directly to PC4. So, it will set the destination MAC address to PC4's MAC address, and use its own address as the source.
 
-The source MAC address will be R3's g0/1 interface, which is **FFFF** .
+The source MAC address will be R3's g0/1 interface, which is `FFFF` .
 
 <div style="text-align: center"><img src="./image23.png"></div>
 
-The destination MAC address will be PC4's MAC address, which turned out to be **4444** (the last 4 digits).
+The destination MAC address will be PC4's MAC address, which turned out to be `4444` (the last 4 digits).
 
 ```
 Cisco Packet Tracer PC Command Line 1.0

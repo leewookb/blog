@@ -31,10 +31,10 @@ When you enter a domain address in the address bar and press enter, the browser 
 
 ### There are total 65,535 ports.
 
-- Port numbers 0 - 1023 are called **System or Well-known** ports.
-- Port numbers 1024 - 49151 are called **User** or **Registered** ports.
-- Port numbers 49152-65535 are called **Dynamic** or **Private** ports.
+- Port numbers 0 - 1023 are called `System or Well-known` ports.
+- Port numbers 1024 - 49151 are called `User` or `Registered` ports.
+- Port numbers 49152-65535 are called `Dynamic` or `Private` ports.
 
 ---
 
-Now it all makes sense. When we are doing a CTF, the first thing we always do in the enumeration phase is utilize the **nmap** command to perform port scanning. This helps us identify open ports and see which services are running on them. The target might be running several programs, and we need to find and confirm which programs/services are running and identify corresponding vulnerabilities.
+Now it all makes sense. When we are doing a CTF, the first thing we always do in the enumeration phase is utilize the `nmap` command to perform port scanning. This helps us identify open ports and see which services are running on them. The target might be running several programs, and we need to find and confirm which programs/services are running and identify corresponding vulnerabilities.

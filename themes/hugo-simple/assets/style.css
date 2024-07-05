@@ -22,7 +22,7 @@ ul.blog-posts > li {
   
 }
 .posts {
-  text-decoration: none;
+  text-decoration: underline;
   margin: 1px;
 }
 
@@ -53,4 +53,27 @@ main > p:first-child time {
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
+}
+
+img[src$='#center'] {
+  display: block;
+  margin: 0.7rem auto;
+}
+
+.tags {
+  margin: 10px 0;
+}
+
+.tag {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  color: #333;
+  text-decoration: none;
+}
+
+.tag:hover {
+  background-color: #e2e2e2;
 }

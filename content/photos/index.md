@@ -27,11 +27,6 @@ title: Photos
     <img src="./leonlevi_kk.jpeg" alt="Image 3" style="width: 300px; height: auto;">
 </div>
 
-<!-- Image 5 -->
-<div style="display: inline-block; margin: 0 5px;">
-    <img src="./me_in_hat.jpeg" alt="Image 5" style="width: 300px; height: auto;">
-</div>
-
 <!-- Image 6 -->
 <div style="display: inline-block; margin: 0 5px;">
     <img src="./leon_and_levi.jpeg" alt="Image 5" style="width: 300px; height: auto;">
@@ -50,5 +45,24 @@ title: Photos
 <!-- Image 9 -->
 <div style="display: inline-block; margin: 0 5px;">
     <img src="./levi_close_shot.jpeg" alt="Image 5" style="width: 300px; height: auto;">
+</div>
+
+<!-- Image 10 -->
+<div style="display: inline-block; margin: 0 5px;">
+    <img src="./leon_close_shot_2.jpeg" alt="Image 5" style="width: 300px; height: auto;">
+</div>
+
+<!-- Image 11 -->
+<div style="display: inline-block; margin: 0 5px;">
+    <img src="./levi_sitting_on_a_stool.jpeg" alt="Image 5" style="width: 300px; height: auto;">
+</div>
+<!-- Image 11 -->
+<div style="display: inline-block; margin: 0 5px;">
+    <img src="./leon_hungry.jpeg" alt="leon_hungry" style="width: 300px; height: auto;">
+</div>
+
+<!-- Image 12 -->
+<div style="display: inline-block; margin: 0 5px;">
+    <img src="./levi_shocked.jpeg" alt="levi_shocked" style="width: 300px; height: auto;">
 </div>
 </div>

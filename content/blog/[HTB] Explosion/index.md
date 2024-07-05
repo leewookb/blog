@@ -119,8 +119,8 @@ Username
 <div style="text-align: center"><img src="./image8.png"></div>
 <div style="text-align: center"><img src="./image9.png"></div>
 
-I was discovered useful switch options through the **xfreerdp --help** command, but I had no idea how to find a specific username that would allow me to connect to the RDP server with a blank password, as the RDP session was not accepting my own username. I had to look up the write-up provided by HTB, which revealed that the username was Administrator. Now that I know the username, I thought to myself, why didn't I think of trying '**Administrator**'?
-The final command **xfreerdp /v:10.129.1.13 /cert-ignore /u:Administrator** connected me to the RDP server with a blank password.
+I was discovered useful switch options through the `xfreerdp --help` command, but I had no idea how to find a specific username that would allow me to connect to the RDP server with a blank password, as the RDP session was not accepting my own username. I had to look up the write-up provided by HTB, which revealed that the username was Administrator. Now that I know the username, I thought to myself, why didn't I think of trying '`Administrator`'?
+The final command `xfreerdp /v:10.129.1.13 /cert-ignore /u:Administrator` connected me to the RDP server with a blank password.
 
 </br>
 

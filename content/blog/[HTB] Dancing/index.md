@@ -129,7 +129,7 @@ What is the name of the share we are able to access in the end with a blank pass
 WorkShares
 ```
 
-Running the **smbclient -L 10.129.1.12** command, we can see that four separate shares are displayed. The default administrative shares often include the $ symbol at the end of their name to indicate they are hidden shares. As we can see that **ADMIN$** , **C$**, **IPC$** shares all include the symbol at the end. On the other hand, **WorkShares** share does not include this symbol, which is an indicator that it is a user-created, or custom, share.
+Running the `smbclient -L 10.129.1.12` command, we can see that four separate shares are displayed. The default administrative shares often include the $ symbol at the end of their name to indicate they are hidden shares. As we can see that `ADMIN$` , `C$`, `IPC$` shares all include the symbol at the end. On the other hand, `WorkShares` share does not include this symbol, which is an indicator that it is a user-created, or custom, share.
 
 </br>
 
@@ -153,11 +153,11 @@ Amy.J D 0 Mon Mar 29 10:08:24 2021
 James.P D 0 Thu Jun 3 09:38:03 2021
 ```
 
-In order to connect to the custom share, **WorkShares** , we need to specify the target's IP address and the target SMB share. The command is **smbclient \\\\{target_IP}\\{target_share}**.
+In order to connect to the custom share, `WorkShares` , we need to specify the target's IP address and the target SMB share. The command is `smbclient \\\\{target_IP}\\{target_share}`.
 
 - The double backslashes ('\\\\') are used to escape the backslashes in the path.
-- The path **{target_IP}\\WorkShares** refers to the "WorkShares" share on the machine identified by '{target_IP}'
-- We were able to connect to the custom share and I used the command ls to list all of the contents of the directories within the share. The command showed us two directories, one is **Amy.J** and another is **James.P** .
+- The path `{target_IP}\\WorkShares` refers to the "WorkShares" share on the machine identified by '{target_IP}'
+- We were able to connect to the custom share and I used the command ls to list all of the contents of the directories within the share. The command showed us two directories, one is `Amy.J` and another is `James.P` .
 
 ```zsh
 smb: \> cd Amy.J
@@ -193,7 +193,7 @@ getting file \James.P\flag.txt of size 32 as flag.txt (0.7 KiloBytes/sec) (avera
 smb: \James.P\>
 ```
 
-I used **cd** command to visit Amy.J folder and found 'worknotes.txt' file, which we can download using the **get** command. Also we moved inside the James.P directory as well and downloaded the flag.txt file.
+I used `cd` command to visit Amy.J folder and found 'worknotes.txt' file, which we can download using the `get` command. Also we moved inside the James.P directory as well and downloaded the flag.txt file.
 
 ```zsh
 smb: \James.P\> quit
@@ -205,7 +205,7 @@ Desktop flag.txt IXFvgbNan my_data Templates worknotes.txt
 5f61c10dffbc77a704d76016a22f1664
 ```
 
-Since we got everything we needed from the share, we can exit out of the SMB server and the files we downloaded are saved inside the location where we ran our **smbclient** command from.
+Since we got everything we needed from the share, we can exit out of the SMB server and the files we downloaded are saved inside the location where we ran our `smbclient` command from.
 <br/>
 <br/>
 
