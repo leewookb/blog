@@ -65,4 +65,9 @@ title: Photos
 <div style="display: inline-block; margin: 0 5px;">
     <img src="./levi_shocked.jpeg" alt="levi_shocked" style="width: 300px; height: auto;">
 </div>
+
+<!-- Image 13 -->
+<div style="display: inline-block; margin: 0 5px;">
+    <img src="./levi_staring.jpeg" alt="levi_shocked" style="width: 300px; height: auto;">
+</div>
 </div>

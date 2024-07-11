@@ -7,7 +7,6 @@ tags: ["picoCTF"]
 
 ### Description
 
-_Author: Jeffrey John_
 <br>
 
 I've gotton bored of handing out flags as text.

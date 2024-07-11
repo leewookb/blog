@@ -7,13 +7,13 @@ tags: ["picoCTF"]
 
 ### heap 0
 
-_author: ABRXS, PR1OR1TYQ_
-
 #### Description
 
 Are overflows just a stack concern? <br>
 Download the binary <br>
 Download the source <br>
+
+---
 
 Here's the source code provided
 
@@ -210,6 +210,8 @@ _author: ABRXS, PR1OR1TYQ_
 Can you control your overflow?
 Connect with the challenge instance here:
 nc tethys.picoctf.net 50046
+
+---
 
 <br>
 

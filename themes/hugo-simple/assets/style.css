@@ -58,6 +58,7 @@ main > p:first-child time {
 img[src$='#center'] {
   display: block;
   margin: 0.7rem auto;
+  width: 100%;
 }
 
 .tags {
