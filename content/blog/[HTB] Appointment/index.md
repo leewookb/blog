@@ -14,7 +14,7 @@ I just finished Tier 0 of the Starting Point and now I'm moving on to Tier 1 box
 #### What does the acronym SQL stand for?
 
 ```
-Structured Query Language
+Structured Query Language!
 ```
 
 <br>
