@@ -630,7 +630,7 @@ code {
   color: var(--preformatted); /* Light text color */
   padding: 3px; /* Padding */
   border-radius: var(--standard-border-radius);
-  font-size: 0.8em; /* Slightly smaller font size */
+  font-size: 0.85em; /* Slightly smaller font size */
   border: 1px solid var(--border);
 }
 

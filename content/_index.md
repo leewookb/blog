@@ -1,5 +1,5 @@
 ---
-title : "VVOOOOOOOOOOOOOK"
+title : "WOOOOOOK"
 ---
 
 <img 
@@ -11,7 +11,7 @@ title : "VVOOOOOOOOOOOOOK"
            border-radius: 50%;"
     src="./levi.jpg" alt="levi">
 
-<p style="text-align: left; width: 90%; margin: 0 auto;">
+<p style="text-align: center; width: 100%; margin: 0 auto;">
     Hi, my name is <strong>Wook</strong>.
     I am someone who studies and loves cybersecurity. I don't know how you ended up in this humble space but this blog was created because my small brain cannot contain all the vast information. If you would like to get in touch, you can email me
     <a style="text-decoration: underline">leewookb@gmail.com</a>.
@@ -20,7 +20,7 @@ title : "VVOOOOOOOOOOOOOK"
 <a href="/posts/" style="text-decoration: none;">
     <button 
         style="display: block; 
-            margin: 3% auto;
+            margin: 20px auto;
             width: 80px;">
     Enter
     </button>
