@@ -1,5 +1,5 @@
 ---
-title: "Wook blog"
+title : "VVOOOOOOOOOOOOOK"
 ---
 
 <img 
@@ -9,15 +9,15 @@ title: "Wook blog"
            width: 100px;
            height: auto;
            border-radius: 50%;"
-    src="./me.jpeg" alt="me">
+    src="./levi.jpg" alt="levi">
 
-<p style="text-align: center; width: 98%; margin: 0 auto;">
-    Hi, my name is <i><strong>Wook</strong></i>.
-    I am someone who studies and loves <i>cybersecurity</i>. I don't know how you ended up in this humble space but this blog was created because my small brain cannot contain all the vast information. If you would like to get in touch, you can email me
+<p style="text-align: left; width: 90%; margin: 0 auto;">
+    Hi, my name is <strong>Wook</strong>.
+    I am someone who studies and loves cybersecurity. I don't know how you ended up in this humble space but this blog was created because my small brain cannot contain all the vast information. If you would like to get in touch, you can email me
     <a style="text-decoration: underline">leewookb@gmail.com</a>.
 </p>
 
-<a href="/blog/" style="text-decoration: none;">
+<a href="/posts/" style="text-decoration: none;">
     <button 
         style="display: block; 
             margin: 3% auto;

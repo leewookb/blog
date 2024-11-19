@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&display=swap');
+
 body {
+  font-family: "Noto Sans KR", sans-serif;
   -webkit-text-size-adjust: 100%; /* prevent Mobile Safari from adjusting font sizes */
 }
 
@@ -57,9 +61,10 @@ main > p:first-child time {
 
 img[src$='#center'] {
   display: block;
-  margin: 0.7rem auto;
-  width: 100%;
-  border: 4px solid slategrey;
+  margin: 0 auto;
+  max-width: 90%;
+  border: 2px solid black;
+  border-radius: 2px;
 }
 
 .tags {

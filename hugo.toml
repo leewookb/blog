@@ -48,13 +48,9 @@ name = "Home"
 pageRef = "/"
 weight = 10
 [[menu.main]]
-name = "Blog"
-pageRef = "/blog"
+name = "Posts"
+pageRef = "/posts"
 weight = 20
-[[menu.main]]
-name = "Photos"
-pageRef = "/photos"
-weight = 30
 
 [services.rss]
 limit = 42

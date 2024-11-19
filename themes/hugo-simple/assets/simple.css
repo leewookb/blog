@@ -42,7 +42,7 @@
   /* Add a bit of transparency so light media isn't so glaring in dark mode */
   img,
   video {
-    opacity: 0.8;
+    opacity: 1;
   }
 }
 
